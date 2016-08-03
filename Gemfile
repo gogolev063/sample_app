@@ -11,6 +11,7 @@ group :development, :test do
   gem 'rspec-rails', '3.3.2'
   gem 'listen', '3.0.0'
   gem 'guard-rspec', '4.6.0'
+  gem 'rspec-its'
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork'
   gem 'childprocess', '0.3.6'
@@ -32,6 +33,8 @@ group :test do
   # gem 'wdm', '0.1.0'
 
   gem 'factory_girl_rails', '4.2.1'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 gem 'sass-rails', '4.0.1'
