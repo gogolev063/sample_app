@@ -43,4 +43,6 @@ RSpec.configure do |config|
   config.include Rails.application.routes.url_helpers
 
   config.include Capybara::DSL
+
+  config.infer_spec_type_from_file_location!
 end
